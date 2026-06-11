@@ -7,13 +7,19 @@ function NotesList({ notes, fetchNotes }) {
     fetchNotes();
   };
 
+  if (notes.length === 0) {
+    return <p className="empty-state">No notes yet. Add one above!</p>;
+  }
+
   return (
-    <div>
+    <div className="notes-grid">
       {notes.map((note) => (
-        <div key={note.id}>
+        <div key={note.id} className="note">
           <h3>{note.title}</h3>
           <p>{note.content}</p>
-          <button onClick={() => deleteNote(note.id)}>Delete</button>
+          <button className="delete-btn" onClick={() => deleteNote(note.id)}>
+            Delete
+          </button>
         </div>
       ))}
     </div>

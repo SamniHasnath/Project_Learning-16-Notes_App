@@ -131,6 +131,15 @@ button:active {
 }
 
 /* =========================
+   EMPTY STATE
+========================= */
+.empty-state {
+  text-align: center;
+  color: var(--muted);
+  padding: 24px;
+}
+
+/* =========================
    NOTES GRID
 ========================= */
 .notes-grid {
