@@ -3,6 +3,7 @@
 A simple, sleek, and functional Notes App designed to help you capture your thoughts instantly. Whether you're on a desktop or mobile, your notes stay synced and organized.
 
 ---
+<img width="502" height="500" alt="image" src="https://github.com/user-attachments/assets/6c4bfbd2-de0c-45f3-81b1-88ad251d51a6" />
 
 ## 🚀 Features
 
